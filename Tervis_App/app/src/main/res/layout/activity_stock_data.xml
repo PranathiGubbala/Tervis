@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttons">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Medicine    Quantity  ExpiryDate"
+                android:textColor="#000"
+                android:textSize="25.5dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Crocin             122       12/4/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Dolo                104       22/6/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Vicodin             76       15/5/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Amoxil              94       02/4/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Synthroid         43        04/8/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Prinivil              73       12/4/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Nexium            63        08/6/2018"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Lipitor               81       21/8/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Zocor               38        08/6/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Plavix               47        21/3/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Zoloft               74     31/12/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Advil                 98        12/4/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ambien            76        12/4/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Prilosec           93        30/6/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ultram              85       26/8/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Diovan              35       16/10/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Lensin              72       18/9/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Flonase              67     14/5/2018"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

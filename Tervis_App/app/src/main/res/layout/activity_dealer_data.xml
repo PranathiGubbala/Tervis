@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttons">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Dealer       Marketer       Contact"
+                android:textColor="#000"
+                android:textSize="25.5dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nivin               Dynamed        9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Millenium       Dynamed        9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Aditya             Biophore         9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Pradeep          Biophore        9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Pooja              Biophore         9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Dhaval             Leiutis            9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Aakash           Qualitek          9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Saral             GloChem          9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ishika            GloChem          9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mandeep        Adept              9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Alvin             MakroCare        9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Praveen       Biological.E       9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Vikram         NoelPharma    9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Lalita           FeronHealth      9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mitra            Spansules         9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Harsha         Alembic            9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Meera          Orbicular          9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Akhil             NoshLab         9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Rakesh        FinosoPharma  9836372815"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

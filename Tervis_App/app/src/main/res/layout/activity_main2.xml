@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bground"
+    android:weightSum="10"
+    tools:context="com.example.pranathi.tervis_app.Main2Activity">
+
+    <RelativeLayout
+        android:layout_weight = "2"
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="TERVIS"
+            android:textSize="34sp"
+            android:textColor="#fcfcfc"
+            android:textStyle="bold"
+            android:layout_centerInParent = "true"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="8"
+        android:layout_width="300sp"
+        android:layout_height="10sp"
+        android:padding="14dp"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="188dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/patient_icon"
+                    android:onClick="ptactivity1"
+                    tools:ignore="OnClick"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="Patient"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="188dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pharmacy_icon"
+                    android:onClick="pharmacylogin"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="Pharmacy"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="188dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/hospital_icon"
+                    android:onClick="hospitallogin"
+                    tools:ignore="OnClick" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:text="Hospital"
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

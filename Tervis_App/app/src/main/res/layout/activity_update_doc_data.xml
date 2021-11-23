@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:backgroundTint="@color/light_grey"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttons">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Doctor          Timings          Status"
+                android:textColor="#000"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nivin                   14:00-18:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Vipul                    09:00-13:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Pratik                  09:00-13:00            OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Reena                 14:00-19:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sanjana              15:00-16:00           OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Arya                    10:00-18:00           OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Saanvi                 14:00-18:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mandeep            10:00-13:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Amala                 15:00-18:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Jayadev              13:00-17:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Neela                   14:00-18:00           OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sunil                    10:00-14:00           OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mayur                  18:00-21:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nirmal                 14:00-18:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Harshad              13:00-18:00            OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Avanti                  14:00-18:00            OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Roshan                12:00-21:00            OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sid                        14:00-20:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Ravinder               13:00-18:00           OUT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Kunal                    14:00-21:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nila                      12:00-18:00            IN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
